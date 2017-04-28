@@ -96,6 +96,15 @@ with open('agencies.json', 'w') as outfile:
 with open('matrix.json', 'w') as outfile:
     json.dump(agency_matrix.tolist(), outfile)
 
+# agency_d3nl = {"nodes":[],"links":[]}
+#
+# for k,agency in enumerate(toptier_agencies):
+#   agency_d3nl['nodes'] += [{"id":agency,"group":}]
+#
+# for r in range(num_agencies):
+#   for c in range(num_agencies):
+#     agency_d3nl['links'] += agency_matrix[r][c]
+
 # return agency_objects, agency_matrix
 
 # cities = 1x35 set of objects, each with this format:
