@@ -99,7 +99,8 @@
     var groupPath = group.append("path")
         .attr("id", function(d, i) { return "group" + i; })
         .attr("d", arc)
-        .style("fill", function(d, i) { return cities[i].color; });
+        .style("fill", function(d, i) {
+            return cities[i].color; });
 
     // Add a text label.
     var groupText = group.append("text")
